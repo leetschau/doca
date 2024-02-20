@@ -1,4 +1,5 @@
 (executable
  (public_name doca)
  (name main)
- (libraries doca))
+ (libraries doca core core_unix.command_unix)
+ (preprocess (pps ppx_jane)))

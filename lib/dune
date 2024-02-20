@@ -1,2 +1,3 @@
 (library
- (name doca))
+ (name doca)
+ (libraries core))

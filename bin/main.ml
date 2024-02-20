@@ -1,4 +1,4 @@
-open Doca.Parser
+open Doca.Cmdparser
 
-let aa = myadd 3 5
-let () = print_endline (string_of_int aa)
+let () =
+  Command_unix.run ~version:"1.0" ~build_info:"RWO" command
