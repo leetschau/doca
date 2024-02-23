@@ -1,3 +1,4 @@
 (library
  (name doca)
- (libraries core))
+ (libraries base core)
+ (preprocess (pps ppx_let)))
